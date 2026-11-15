@@ -69,8 +69,21 @@ a:focus-visible, .btn:focus-visible, input:focus-visible {
   letter-spacing: -0.02em;
   color: var(--ink);
   text-decoration: none;
+  display: inline-flex;
+  align-items: baseline;
 }
-.wordmark-accent { color: var(--pistachio); }
+.wordmark-split,
+.wordmark-slash,
+.wordmark-accent { display: inline-block; }
+.wordmark-split { transform: translateY(-0.07em); }
+.wordmark-slash {
+  color: var(--cocoa);
+  margin: 0 0.03em;
+}
+.wordmark-accent {
+  color: var(--pistachio);
+  transform: translateY(0.07em);
+}
 .wordmark-small { font-size: 1.1rem; }
 .site-nav {
   display: flex;
