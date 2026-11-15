@@ -303,10 +303,10 @@ a:focus-visible, .btn:focus-visible, input:focus-visible {
 }
 .app-icon {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 232px;
+  height: auto;
   align-self: center;
-  border-radius: 32px;
+  border-radius: 24px;
   filter: drop-shadow(0 10px 22px rgba(43, 33, 24, 0.18));
 }
 .store-badge { line-height: 0; }
