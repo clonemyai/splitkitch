@@ -14,6 +14,11 @@ step, no framework. It can be hosted anywhere that serves static files.
   that stills all animation.
 - `script.js`: optional progressive enhancement (a pressed-state class for
   older browsers). The page works fully with JavaScript disabled.
+- `badge-app-store.svg`: the official "Download on the App Store" badge
+  artwork (from Apple's App Store marketing resources). Display only for
+  now, not a link.
+- `badge-google-play.svg`: the official "GET IT ON Google Play" badge
+  artwork. Display only for now, not a link.
 - `README.md`: this file.
 
 ## Deliberate placeholders
