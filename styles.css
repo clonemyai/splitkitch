@@ -23,6 +23,10 @@
 
 html { scroll-behavior: smooth; }
 
+/* Anchor jumps clear the sticky header (64px) instead of hiding under it */
+section[id],
+.store-badges { scroll-margin-top: 80px; }
+
 body {
   margin: 0;
   background: var(--bg);
