@@ -89,6 +89,19 @@ a:focus-visible, .btn:focus-visible, input:focus-visible {
   transform: translateY(0.07em);
 }
 .wordmark-small { font-size: 1.1rem; }
+/* The tagline (Tony, 2026-11-16): "Split your Kitch." — "your"
+   sits where the slash sits in the wordmark and does the
+   splitting: Split rides high like the wordmark's first half,
+   "your" wears the slash's cocoa, Kitch drops in pistachio. */
+.tagline-split,
+.tagline-your,
+.tagline-kitch { display: inline-block; }
+.tagline-split { transform: translateY(-0.07em); }
+.tagline-your { color: var(--cocoa); }
+.tagline-kitch {
+  color: var(--pistachio);
+  transform: translateY(0.07em);
+}
 .site-nav {
   display: flex;
   gap: 4px;
