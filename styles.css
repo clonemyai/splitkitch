@@ -128,6 +128,12 @@ a:focus-visible, .btn:focus-visible, input:focus-visible {
   color: #ffffff;
 }
 .btn-primary:hover { background: var(--pistachio-bright); }
+/* Full cocoa fill: the Make food door, equal weight to Eat food (as in the apps) */
+.btn-cocoa {
+  background: var(--cocoa);
+  color: #ffffff;
+}
+.btn-cocoa:hover { background: #7d5230; }
 .btn-ghost {
   background: var(--surface);
   color: var(--pistachio);
